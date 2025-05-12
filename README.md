@@ -1,1 +1,3 @@
 # anda_un_venija10b
+
+https://images.ctfassets.net/sfnkq8lmu5d7/6qdaTH4Ea7KwpfXaFK4wEI/19a6c2bec471d6eef31039d02ccaed5c/2025-02-04_Are_Tuxedo_Cats_More_Intelligent
