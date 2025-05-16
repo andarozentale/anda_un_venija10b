@@ -1,0 +1,25 @@
+ body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+
+.pet {
+    background-color: rgb(158, 83, 114);
+    color: rgb(73, 23, 61);
+    padding: 50 px 30 px;
+    text-align: center;
+}
+
+.pet h1 {
+    font-weight: normal;
+    font-size: 6;
+    margin: 0;
+}
+
+.pet h2 {
+    font-weight: normal;
+    font-size: 1;
+    margin: 0;
+}
