@@ -82,7 +82,7 @@ h3 {
 }
 .double-image img {
   width: 49%;
-  height: 200px;
+  height: auto;
   border-radius: 20px;
 
 }
