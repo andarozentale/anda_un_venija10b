@@ -27,7 +27,7 @@ body {
     background: linear-gradient(to left, rgb(83, 11, 83), rgb(228, 9, 82))
 }
 .pet:after {
-    content: "";
+   content: ""; 
     position: absolute;
     bottom: 0;
     left: 0;
