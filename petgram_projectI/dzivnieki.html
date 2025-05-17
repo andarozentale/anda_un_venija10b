@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+  <meta charset="UTF-8">
+  <title>Pieejamie dzīvnieki</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="dzivnieki.css">
+  <script type="module" src="script.js"></script>
+</head>
+<body>
+
+    <div class="filter-nav">
+<a href="#">Visi</a>
+<a href="#">Suņi</a>
+<a href="#">Kaķi</a>
+<a href="#">Citi</a>
+</div>
+  <header>
+    <h1>Pieejamie dzīvnieki adopcijai</h1>
+    <nav>
+      <a href="index.html">Sākums</a>
+      <a href="dzivnieki.html">Dzīvnieki</a>
+      <a href="par-mums.html">Par mums</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="filter-buttons">
+      <button data-filter="all">Visi</button>
+      <button data-filter="dog">Suņi</button>
+      <button data-filter="cat">Kaķi</button>
+      <button data-filter="other">Citi</button>
+    </div>
+
+    <div class="animals"></div>
+
+    <template id="animal-card">
+      <div class="animal-card">
+        <div class="animal-card-text">
+        <h3></h3>
+        <small></small>
+        <p class="description"></p>
+        <a href="#" class="primary-button"></a>
+        </div>
+        <div class="animal-photo">
+        <img src="" alt=""> 
+      </div>
+    </div>
+    </template>
+  </main>
+
+  <footer>
+    <p>Ar mīlestību gaidām!</p>
+  </footer>
+</body>
+</html>

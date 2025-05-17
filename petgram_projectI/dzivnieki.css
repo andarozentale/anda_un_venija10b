@@ -1,0 +1,36 @@
+.filter-buttons {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.filter-buttons button {
+  margin: 0 0.5em;
+  padding: 0.5em 1em;
+  cursor: pointer;
+}
+
+.animals {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  justify-content: center;
+}
+
+.animal-card {
+  border: 1px solid #ccc;
+  padding: 1em;
+  width: 200px;
+  text-align: center;
+}
+
+.animal-photo {
+  width: 100%;
+  height: auto;
+}
+.filter-nav a {
+    text-decoration: none;
+    padding: 9px;
+    color: rgb(94, 10, 94);
+    border: 1px solid rgb(226, 36, 226);
+    border-radius: 4px;
+    margin: 4px ;
