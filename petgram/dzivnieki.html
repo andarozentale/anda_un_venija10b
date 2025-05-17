@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dzīvnieki</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="dzivnieki.css">
+  <script type="module" src="script.js"></script>
+</head>
+<body>
+  <header>
+    <nav class="navigacija">
+      <a href="index.html">Sākums</a>
+      <a href="dzivnieki.html">Dzīvnieki</a>
+      <a href="par-mums.html">Par mums</a>
+    </nav>
+  </header>
+<main>
+  <div class="filter-nav">
+    <button data-filter="all">Visi</button>
+    <button data-filter="dog">Suņi</button>
+    <button data-filter="cat">Kaķi</button>
+    <button data-filter="other">Citi</button>
+  </div>
+
+  <div class="animals"></div>
+
+  <template id="animal-card">
+    <div class="animal-card">
+      <div class="animal-card-photo">
+        <img src="" alt="">
+      </div>
+      <div class="animal-card-text">
+        <h3></h3>
+        <small class="info"></small>
+        <p class="description"></p>
+        <a href="#" class="primary-button"></a>
+      </div>
+    </div>
+  </template>
+</main>
+  <footer>
+    <p>&copy; 2025 Petgram. Visas tiesības aizsargātas.</p>
+  </footer>
+  
+</body>
+</html>
